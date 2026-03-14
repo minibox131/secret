@@ -2,7 +2,7 @@ local Gui = Instance.new("ScreenGui")
 Gui.Enabled = false
 Gui.Name = "Gui"
 Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Gui.Parent = game.Players.LocalPlayer.PlayerGui
+Gui.Parent = game.Players.MTG_1121.PlayerGui
 Gui.IgnoreGuiInset = true
 
 local Frame = Instance.new("Frame")
