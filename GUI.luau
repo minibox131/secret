@@ -1,10 +1,9 @@
-
 local Gui = Instance.new("ScreenGui")
 Gui.Name = "Gui"
 Gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Gui.ResetOnSpawn = false
 Gui.IgnoreGuiInset = true
-Gui.Parent = StarterGui
+Gui.Parent = game.Players.LocalPlayer.PlayerGui
 
 local Frame = Instance.new("Frame")
 Frame.Parent = Gui
@@ -16,7 +15,7 @@ Frame.BorderSizePixel = 0
 Frame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 
 local LocalScript = Instance.new("LocalScript")
-LocalScript.Source = [[-- Modular GUI  © 2026 by quackduck1 is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
+LocalScript.Source = [[-- Modular GUI  Â© 2026 by quackduck1 is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
 local TermsAgree = true
 -- Agree to these terms to use this script. If you do not, you may not use this script. If you do use this script, you agree to these terms.
 local function consolelog(message, identifier, subid)
